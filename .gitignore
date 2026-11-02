@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+.venv/
+venv/
+.env
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend build
+frontend/dist/
+frontend/node_modules/
+
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env.*
+!.env.example
+
+# Temporary files
+tmp/
+
+# Generated output (if not required in GitHub)
+output/
